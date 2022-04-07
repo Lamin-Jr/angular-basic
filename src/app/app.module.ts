@@ -10,7 +10,7 @@ import { GameControlModule } from './game-control/game-control.module';
 import { OddComponentModule } from './odd/odd.module';
 
 @NgModule({
-  declarations: [AppComponent, OddComponent, EvenComponent],
+  declarations: [AppComponent, EvenComponent],
   imports: [
     BrowserModule,
     CockPitModule,
