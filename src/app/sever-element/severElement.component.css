@@ -1,0 +1,41 @@
+.sever-element-container {
+    color: azure;
+    width: auto;
+    background-color: rgb(124, 124, 124);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+}
+.container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    /* s  */
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.title {
+    background-color: rgb(219, 133, 27);
+    width: 100%;
+    margin: 0;
+    height: 64px;
+    padding: 0 10px;
+}
+
+.body {
+    background-color: rgb(143, 143, 143);
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    padding: 0 10px;
+}
+h5 {
+    font-size: 20px;
+}
+
+p {
+
+}

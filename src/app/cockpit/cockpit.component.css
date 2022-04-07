@@ -1,0 +1,35 @@
+.cockpit-container {
+    color: azure;
+    /* background-color: blue; */
+    display: flex
+}
+form {
+    width: 100%;
+}
+.input-containers {
+    display: flex;
+    flex-grow: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.input-containers input {
+    min-width: 50%;
+    max-width: 100%;
+    width: calc(100%);
+    margin: 0 15px;
+}
+
+.input-containers label {
+    
+    width: auto;
+    font-size: 2em;
+}
+.button-dives {
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center ;
+    padding: 20px;
+}

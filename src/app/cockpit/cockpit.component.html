@@ -1,0 +1,16 @@
+<div class="cockpit-container">
+  <form [formGroup]="form">
+    <div class="input-containers">
+      <label for="title">Name::</label>
+      <input id="title" type="text"  formControlName="title"  #titleBind />
+    </div>
+    <div class="input-containers">
+      <label for="description">Description::</label>
+      <input id="description" type="text"  formControlName="description"  [(ngModel)]="descriptionfm" />
+    </div>
+    <div class="button-dives">
+      <button (click)="formOnClick()">Add To SERVER</button>
+      <button>Add To LocalHost</button>
+    </div>
+  </form>
+</div>
