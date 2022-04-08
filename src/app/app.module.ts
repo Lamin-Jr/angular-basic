@@ -8,21 +8,24 @@ import { OddComponent } from './odd/odd.component';
 import { EvenComponent } from './even/even.component';
 import { GameControlModule } from './game-control/game-control.module';
 import { OddComponentModule } from './odd/odd.module';
+import { EvenComponentModule } from './even/even.module';
 
 @NgModule({
-  declarations: [AppComponent, EvenComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     CockPitModule,
     SeverElemenetModule,
     GameControlModule,
     OddComponentModule,
+    EvenComponentModule
   ],
   providers: [
     CockPitModule,
     SeverElemenetModule,
     GameControlModule,
     OddComponentModule,
+    EvenComponentModule
   ],
   bootstrap: [AppComponent],
 })

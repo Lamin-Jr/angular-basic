@@ -9,6 +9,8 @@
   <div class="col-6">
     <h1>Game SESSION</h1>
     <app-game-control (timer)="timerfn($event)"> </app-game-control>
-    {{ timerDisplay }}
+    <odd-number  [oddNumberShow]="oddNumberDisplay" ></odd-number>
+    <even-number  [eveNumberShow]="evenNumberDisplay" ></even-number>
+    <!-- {{ timerDisplay }} -->
   </div>
 </div>

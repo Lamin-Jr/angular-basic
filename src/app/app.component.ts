@@ -13,10 +13,17 @@ export class AppComponent {
 
   serverElements: FormInterface[] = []
   timerDisplay = 1;
-  
-  timerfn(even: number ){
 
-    this.timerDisplay = even
+  oddNumberDisplay: number;
+  evenNumberDisplay: number;
+
+  
+  timerfn(numberData: number ){
+    if(numberData % 2 == 0) {
+      this.evenNumberDisplay = numberData
+    }else{
+      this.oddNumberDisplay = numberData
+    }
   }
 
   addToServer(elements: {title: string, description: string}){
